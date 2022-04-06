@@ -1,0 +1,231 @@
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+.quenmk{
+  margin-left: 200px;
+}
+.toanbowebchinhanh{
+  background-color: #fff67f;
+}
+.chinhanh{
+ 
+  font-size: larger;
+}
+
+.pag{
+  margin-left: 1000px;
+  margin-top:50px;
+  
+}
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+
+.hover-noidung {
+  position: relative;
+  z-index: 99;
+}
+.hover-1 img {
+  width: 105%;
+  position: absolute;
+  top: 0;
+  left: -5%;
+  transition: all 0.3s;
+}
+
+.hover-1-noidung {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.4s;
+}
+
+.hover-1 .hover-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hover-1-trichdan {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.hover-1:hover .hover-1-noidung {
+  bottom: 2rem;
+}
+
+.hover-1:hover .hover-1-trichdan {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-1:hover img {
+  left: 0;
+}
+
+.hover-1:hover .hover-overlay {
+  opacity: 0;
+}
+
+
+
+
+.hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+}
+
+.hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  transition: all 0.4s;
+}
+
+.hover img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+.hover-5::after {
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: #FFFF66;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  display: block;
+  transition: all 0.3s;
+  z-index: 999;
+}
+
+.hover-5 .hover-overlay {
+  background: ;
+}
+
+.hover-5-tieude {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  transition: all 0.3s;
+  padding: 2rem 3rem;
+  z-index: 99;
+}
+
+.hover-5-tieude span {
+  transition: all 0.4s;
+  opacity: 0;
+  color: #FFFF66;
+  font-style:oblique;
+}
+
+.hover-5:hover .hover-overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.hover-5:hover .hover-5-tieude {
+  bottom: 0;
+}
+
+.hover-5:hover .hover-5-tieude span {
+  opacity: 1;
+}
+
+.hover-5:hover::after {
+  bottom: 0;
+}
+.py-5{
+  /* background: rgb(51, 50, 50); */
+}
+header{
+  position: fixed;
+  width:100%;
+  height:65px;
+  top:0px;
+  left:0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Định dạng cho thanh search */
+.search{
+  position: fixed;
+  top: 35px; right: 120px;
+  width: 300px; height: 40px;
+  background: rgb(49, 49, 49);
+  padding-left: 20px;
+  border-radius: 10px;
+  color: aliceblue;
+  border: none;
+  visibility: hidden;
+}
+.search:focus{
+  outline: 0;
+}
+.delete{
+  position: absolute;
+  top: 0; height: 0;
+  width: 0; height: 0;
+  visibility: hidden;
+}
+
+
+
+        /*   class ẩn hiện thanh search  */
+       
